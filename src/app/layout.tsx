@@ -14,7 +14,7 @@ export const metadata = {
   description: "Personal cashflow planning and projection",
 };
 
-export default function RootLayout({ children }) {
+export default function ProtectedRoute({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
